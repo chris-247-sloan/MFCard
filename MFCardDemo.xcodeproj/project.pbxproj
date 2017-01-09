@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25159E7B98B15559CBF139E6 /* Pods_MFCardDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232C6A15E091DE94DC8DE23F /* Pods_MFCardDemo.framework */; };
 		6B2447341DF84E62003A8285 /* MFCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2447321DF84E62003A8285 /* MFCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B24473F1DF84E82003A8285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B24473E1DF84E82003A8285 /* AppDelegate.swift */; };
 		6B2447411DF84E82003A8285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2447401DF84E82003A8285 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		6B2447831DF855D6003A8285 /* MFCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2447301DF84E62003A8285 /* MFCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B3020841DF975AB00FB9C0D /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3020831DF975AB00FB9C0D /* Toast.swift */; };
 		6B6476081DF95B83004679E4 /* CardDemoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6476071DF95B83004679E4 /* CardDemoVc.swift */; };
+		F6D8423A4D15049286C98364 /* Pods_MFCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98D05B28C2345A502FAAAAE /* Pods_MFCard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1FFA064A1FD87A2E977F5C92 /* Pods-MFCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFCard/Pods-MFCard.debug.xcconfig"; sourceTree = "<group>"; };
+		232C6A15E091DE94DC8DE23F /* Pods_MFCardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFCardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		274147762A7ACCB812A94D30 /* Pods-MFCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFCard/Pods-MFCard.release.xcconfig"; sourceTree = "<group>"; };
+		33362BA91E23CD5C0079A3B3 /* MFCardDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MFCardDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		6B2447301DF84E62003A8285 /* MFCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2447321DF84E62003A8285 /* MFCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFCard.h; sourceTree = "<group>"; };
 		6B2447331DF84E62003A8285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 		6B2447741DF84FBE003A8285 /* MFCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFCardView.xib; sourceTree = "<group>"; };
 		6B3020831DF975AB00FB9C0D /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		6B6476071DF95B83004679E4 /* CardDemoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDemoVc.swift; sourceTree = "<group>"; };
+		A161932796F915B9529F30FA /* Pods-MFCardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFCardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFCardDemo/Pods-MFCardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE220C6E93A5659F3DD4A7BF /* Pods-MFCardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFCardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFCardDemo/Pods-MFCardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E98D05B28C2345A502FAAAAE /* Pods_MFCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D8423A4D15049286C98364 /* Pods_MFCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B2447821DF855D6003A8285 /* MFCard.framework in Frameworks */,
+				25159E7B98B15559CBF139E6 /* Pods_MFCardDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +144,7 @@
 				6B24476D1DF84FBE003A8285 /* Card.swift */,
 				6B2447731DF84FBE003A8285 /* MFCardView.swift */,
 				6B2447741DF84FBE003A8285 /* MFCardView.xib */,
+				33362BA91E23CD5C0079A3B3 /* MFCardDemo-Bridging-Header.h */,
 			);
 			path = "Card ";
 			sourceTree = "<group>";
@@ -177,7 +189,29 @@
 				6B2447311DF84E62003A8285 /* MFCard */,
 				6B24473D1DF84E82003A8285 /* MFCardDemo */,
 				6B24476A1DF84F35003A8285 /* Products */,
+				6D8987439A9FC597E787BB8E /* Pods */,
+				7CF3C079B5B82738B0BFAF46 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		6D8987439A9FC597E787BB8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FFA064A1FD87A2E977F5C92 /* Pods-MFCard.debug.xcconfig */,
+				274147762A7ACCB812A94D30 /* Pods-MFCard.release.xcconfig */,
+				A161932796F915B9529F30FA /* Pods-MFCardDemo.debug.xcconfig */,
+				BE220C6E93A5659F3DD4A7BF /* Pods-MFCardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CF3C079B5B82738B0BFAF46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E98D05B28C2345A502FAAAAE /* Pods_MFCard.framework */,
+				232C6A15E091DE94DC8DE23F /* Pods_MFCardDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B2447351DF84E62003A8285 /* Build configuration list for PBXNativeTarget "MFCard" */;
 			buildPhases = (
+				FFC00EF2F9BE177F3C478342 /* [CP] Check Pods Manifest.lock */,
 				6B24472B1DF84E62003A8285 /* Sources */,
 				6B24472C1DF84E62003A8285 /* Frameworks */,
 				6B24472D1DF84E62003A8285 /* Headers */,
 				6B24472E1DF84E62003A8285 /* Resources */,
+				21AB1038382A5459F69C8C8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,10 +252,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B2447611DF84E82003A8285 /* Build configuration list for PBXNativeTarget "MFCardDemo" */;
 			buildPhases = (
+				7424F5FF98506BF479EF86F7 /* [CP] Check Pods Manifest.lock */,
 				6B2447381DF84E82003A8285 /* Sources */,
 				6B2447391DF84E82003A8285 /* Frameworks */,
 				6B24473A1DF84E82003A8285 /* Resources */,
 				6B2447861DF855D6003A8285 /* Embed Frameworks */,
+				6F8CF093D3E551F064E72BC3 /* [CP] Embed Pods Frameworks */,
+				F992887F7D5473733D73822E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +335,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21AB1038382A5459F69C8C8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFCard/Pods-MFCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8CF093D3E551F064E72BC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFCardDemo/Pods-MFCardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7424F5FF98506BF479EF86F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F992887F7D5473733D73822E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFCardDemo/Pods-MFCardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC00EF2F9BE177F3C478342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B24472B1DF84E62003A8285 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -352,7 +469,10 @@
 /* Begin XCBuildConfiguration section */
 		6B2447361DF84E62003A8285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFA064A1FD87A2E977F5C92 /* Pods-MFCard.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -368,6 +488,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilefirst.MFCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -377,7 +500,10 @@
 		};
 		6B2447371DF84E62003A8285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274147762A7ACCB812A94D30 /* Pods-MFCard.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -392,6 +518,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilefirst.MFCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -401,9 +529,11 @@
 		};
 		6B2447621DF84E82003A8285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A161932796F915B9529F30FA /* Pods-MFCardDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 536JDUMES6;
 				INFOPLIST_FILE = MFCardDemo/Info.plist;
@@ -411,15 +541,19 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilefirst.MFCardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MFCard/Card /MFCardDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6B2447631DF84E82003A8285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE220C6E93A5659F3DD4A7BF /* Pods-MFCardDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 536JDUMES6;
 				INFOPLIST_FILE = MFCardDemo/Info.plist;
@@ -427,6 +561,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobilefirst.MFCardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MFCard/Card /MFCardDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
