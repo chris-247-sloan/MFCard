@@ -157,6 +157,7 @@ extension MFCardDelegate{
         
         view.addGestureRecognizer(leftSwipe)
         view.addGestureRecognizer(rightSwipe)
+        // 
     }
     
     fileprivate func setupUI(){
@@ -387,6 +388,13 @@ extension MFCardDelegate{
         }
         
     }
+    
+    @IBAction func btnScanAction(_ sender: AnyObject) {
+        
+
+    }
+    
+    
     
     //MARK:
     //MARK: Card Management

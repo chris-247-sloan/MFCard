@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -86,12 +86,26 @@
                                 <action selector="btnDoneAction:" destination="-1" eventType="touchUpInside" id="lgK-Oj-pHm"/>
                             </connections>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndI-QH-pbb">
+                            <rect key="frame" x="130" y="9.5" width="40" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="lG5-S1-Kcb"/>
+                                <constraint firstAttribute="width" constant="40" id="u0b-RX-G12"/>
+                            </constraints>
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" image="scan"/>
+                            <connections>
+                                <action selector="btnScanAction:" destination="-1" eventType="touchUpInside" id="csi-3l-SEa"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="KwN-sw-3st" secondAttribute="bottom" constant="8" id="6VG-Xp-TX3"/>
                         <constraint firstItem="9q8-BU-bfu" firstAttribute="leading" secondItem="XLe-EM-5Se" secondAttribute="leading" constant="8" id="7Ps-jg-Td0"/>
                         <constraint firstAttribute="trailing" secondItem="KwN-sw-3st" secondAttribute="trailing" constant="8" id="FPy-iI-CLn"/>
                         <constraint firstAttribute="bottom" secondItem="9q8-BU-bfu" secondAttribute="bottom" constant="8" id="GFJ-Jc-fr4"/>
+                        <constraint firstItem="ndI-QH-pbb" firstAttribute="centerX" secondItem="XLe-EM-5Se" secondAttribute="centerX" id="R0x-o8-f4E"/>
+                        <constraint firstItem="ndI-QH-pbb" firstAttribute="centerY" secondItem="9q8-BU-bfu" secondAttribute="centerY" id="ozR-9v-cF8"/>
                         <constraint firstAttribute="height" constant="50" id="pSa-sW-4DI"/>
                     </constraints>
                 </view>
@@ -392,5 +406,6 @@
     </objects>
     <resources>
         <image name="bg" width="630" height="400"/>
+        <image name="scan" width="90" height="90"/>
     </resources>
 </document>
