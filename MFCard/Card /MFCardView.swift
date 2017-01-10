@@ -18,6 +18,7 @@ extension MFCardDelegate{
     }
 }
 
+
 @IBDesignable public class MFCardView: UIView {
     
     public var delegate :MFCardDelegate?
