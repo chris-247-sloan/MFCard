@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 public protocol MFCardDelegate {
     func cardDoneButtonClicked(_ card:Card?, error:String?)
     func cardTypeDidIdentify(_ cardType :String)
@@ -17,7 +18,6 @@ extension MFCardDelegate{
     func cardTypeDidIdentify(_ cardType :String){
     }
 }
-
 
 @IBDesignable public class MFCardView: UIView {
     
@@ -391,6 +391,7 @@ extension MFCardDelegate{
     }
     
     @IBAction func btnScanAction(_ sender: AnyObject) {
+        
         
 
     }

@@ -7,60 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0446DE9620AD466C93EF1D58B390F752 /* Pods-MFCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B47573EDE5A713CB0052094113E2D565 /* Pods-MFCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EEAB9A980D8FF9A83B0190374211559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		AE6294DB01F5B3B60C9A377AD65AFA7F /* Pods-MFCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB33D343F00B1D2BF51D6FA3A9BB4CE /* Pods-MFCard-dummy.m */; };
+		0446DE9620AD466C93EF1D58B390F752 /* Pods-MFCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E167F0D2291F828AA9B6296458597C77 /* Pods-MFCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6294DB01F5B3B60C9A377AD65AFA7F /* Pods-MFCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B20EAC94E50B1D535028AE2976FBF133 /* Pods-MFCard-dummy.m */; };
 		D5F14DD8935E8F1221EC7117A08CD22F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E0C1DB5AA67E84DFC362DAD85D1E690D /* Pods-MFCardDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B3CD11C70EDCA2B4F543ADC9FEFD7A /* Pods-MFCardDemo-dummy.m */; };
-		FAD2F73C079315AD2C75372BCB0C0431 /* Pods-MFCardDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3189B204FDB425FAAB672FEFD174CA5E /* Pods-MFCardDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11AE0B4C7724B90B0D603AAFB8CB84DB /* CardIOUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOUtilities.h; path = CardIO/CardIOUtilities.h; sourceTree = "<group>"; };
-		14A4B3BCFAEEAA03AB4939C1CBEEF2B1 /* Pods-MFCardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFCardDemo.release.xcconfig"; sourceTree = "<group>"; };
-		201C484D8C6FD6FA9CF34E001AFB2445 /* Pods-MFCard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFCard-resources.sh"; sourceTree = "<group>"; };
+		1B5D316FFCBE5545BA9061F33B3EC812 /* Pods-MFCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFCard.release.xcconfig"; sourceTree = "<group>"; };
 		30A7B82330C2AAB35278835122ED9941 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewControllerDelegate.h; path = CardIO/CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
-		3189B204FDB425FAAB672FEFD174CA5E /* Pods-MFCardDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFCardDemo-umbrella.h"; sourceTree = "<group>"; };
-		3376347608464AFA38B1BDBD6F86CE96 /* Pods-MFCardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFCardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B14F374FD48F7026C64D2936E20CC89 /* Pods-MFCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MFCard.modulemap"; sourceTree = "<group>"; };
 		496D82B2BB23C1E429D866D6647F43CD /* libCardIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardIO.a; path = CardIO/libCardIO.a; sourceTree = "<group>"; };
-		4E5E1990975D1D80FEA91DD6AF8934DC /* Pods-MFCardDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MFCardDemo.modulemap"; sourceTree = "<group>"; };
 		5E8E890DC6DE4DEE28CD442CED8C24B5 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOViewDelegate.h; path = CardIO/CardIOViewDelegate.h; sourceTree = "<group>"; };
 		60B70D08C7ED3BA23E7664B8AF65BC8D /* CardIODetectionMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIODetectionMode.h; path = CardIO/CardIODetectionMode.h; sourceTree = "<group>"; };
-		649E5EDBCAABB3514F00280090627A02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		761F50E6DB9B4FC95441C64848E9F4E6 /* Pods-MFCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFCard.debug.xcconfig"; sourceTree = "<group>"; };
-		865797F2CC4D30D278463D1AD2598235 /* Pods-MFCardDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFCardDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7CFB7EB7939F4C4ECD410A7D3278F8FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B92F6D2C23F1E052D94682098BDB33C /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardInfo.h; path = CardIO/CardIOCreditCardInfo.h; sourceTree = "<group>"; };
-		8F52BAACE3CD5BF27E644E593F5788A4 /* Pods-MFCardDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFCardDemo-resources.sh"; sourceTree = "<group>"; };
 		904AF5D8302F9AD9A30377F78CFC8A53 /* CardIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = CardIO/CardIO.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		971E803AE357D3AF946FE4D1D9E8D8A9 /* Pods-MFCard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MFCard-resources.sh"; sourceTree = "<group>"; };
+		99CFB601FAE39DC57F1BB01EAEAAF77D /* Pods_MFCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MFCard.framework; path = "Pods-MFCard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAC2980631ECE7BF530016C12B3D152 /* CardIOView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOView.h; path = CardIO/CardIOView.h; sourceTree = "<group>"; };
-		B47573EDE5A713CB0052094113E2D565 /* Pods-MFCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFCard-umbrella.h"; sourceTree = "<group>"; };
+		AED0D04BA504E503BB906AA9A14E7EAA /* Pods-MFCard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFCard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B20EAC94E50B1D535028AE2976FBF133 /* Pods-MFCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFCard-dummy.m"; sourceTree = "<group>"; };
 		B7559D21122FE196156FA0B179736E02 /* libopencv_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_core.a; path = CardIO/libopencv_core.a; sourceTree = "<group>"; };
-		B91767D541761D210D784754B15B9A99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDD5D81FACE5C0E38F3833037A080BB0 /* Pods_MFCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MFCard.framework; path = "Pods-MFCard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C460BE5DB893A8B30F651D78CFFBD78D /* Pods-MFCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFCard.release.xcconfig"; sourceTree = "<group>"; };
 		C5F8D7754087E2B3D6B2607632C59D67 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewController.h; path = CardIO/CardIOPaymentViewController.h; sourceTree = "<group>"; };
-		C82F8DCF2D08DC64020B19507BBB0CF9 /* Pods-MFCardDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFCardDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA440F60CEBE7A07C4ED0DDA12136F6C /* Pods-MFCard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFCard-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC452F0537F059D384FA9BE0C02209D1 /* Pods-MFCard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFCard-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF40943928F00301505EDAFC1E560150 /* Pods-MFCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MFCard.modulemap"; sourceTree = "<group>"; };
-		D500432559BFEBBC014411C855EF263F /* Pods-MFCardDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFCardDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		E5B3CD11C70EDCA2B4F543ADC9FEFD7A /* Pods-MFCardDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFCardDemo-dummy.m"; sourceTree = "<group>"; };
-		EDB33D343F00B1D2BF51D6FA3A9BB4CE /* Pods-MFCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFCard-dummy.m"; sourceTree = "<group>"; };
-		FE9C3B87FE0C57D3BE12EDC8AD03008E /* Pods_MFCardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MFCardDemo.framework; path = "Pods-MFCardDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E167F0D2291F828AA9B6296458597C77 /* Pods-MFCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFCard-umbrella.h"; sourceTree = "<group>"; };
+		F41A52881E2F84F4BA660B73D5AAA108 /* Pods-MFCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFCard.debug.xcconfig"; sourceTree = "<group>"; };
+		FEDB16AA089FB9D5BC1A352217BC370B /* Pods-MFCard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFCard-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF854235BD0D6C102BF203996A85741E /* libopencv_imgproc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = CardIO/libopencv_imgproc.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		548BA65CBD026B5E669C5D69745992F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EEAB9A980D8FF9A83B0190374211559 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6152D2046C97C22AC38FEEAC3513AF48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,21 +50,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		478084E06866108970EB9E69AFDFA465 /* Pods-MFCard */ = {
+		650BE42B034A81D4192CF8CA173E25E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B91767D541761D210D784754B15B9A99 /* Info.plist */,
-				CF40943928F00301505EDAFC1E560150 /* Pods-MFCard.modulemap */,
-				CC452F0537F059D384FA9BE0C02209D1 /* Pods-MFCard-acknowledgements.markdown */,
-				CA440F60CEBE7A07C4ED0DDA12136F6C /* Pods-MFCard-acknowledgements.plist */,
-				EDB33D343F00B1D2BF51D6FA3A9BB4CE /* Pods-MFCard-dummy.m */,
-				201C484D8C6FD6FA9CF34E001AFB2445 /* Pods-MFCard-resources.sh */,
-				B47573EDE5A713CB0052094113E2D565 /* Pods-MFCard-umbrella.h */,
-				761F50E6DB9B4FC95441C64848E9F4E6 /* Pods-MFCard.debug.xcconfig */,
-				C460BE5DB893A8B30F651D78CFFBD78D /* Pods-MFCard.release.xcconfig */,
+				99CFB601FAE39DC57F1BB01EAEAAF77D /* Pods_MFCard.framework */,
 			);
-			name = "Pods-MFCard";
-			path = "Target Support Files/Pods-MFCard";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6542E9B6A5F7E492302300DDC3A9FC16 /* Pods */ = {
@@ -97,11 +66,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		71C9A161AA4686D9851D5A6465326B9E /* Targets Support Files */ = {
+		66850B47812174A8A3523EB1C5240364 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				478084E06866108970EB9E69AFDFA465 /* Pods-MFCard */,
-				8500DD70A850BD8D8AF8B0958B6A6F14 /* Pods-MFCardDemo */,
+				BED7795AC8E0A665338E4221D05D5B76 /* Pods-MFCard */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -114,23 +82,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		763E2FB2D6C4DBB57FF5FE08E446BA18 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BDD5D81FACE5C0E38F3833037A080BB0 /* Pods_MFCard.framework */,
-				FE9C3B87FE0C57D3BE12EDC8AD03008E /* Pods_MFCardDemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				6542E9B6A5F7E492302300DDC3A9FC16 /* Pods */,
-				763E2FB2D6C4DBB57FF5FE08E446BA18 /* Products */,
-				71C9A161AA4686D9851D5A6465326B9E /* Targets Support Files */,
+				650BE42B034A81D4192CF8CA173E25E3 /* Products */,
+				66850B47812174A8A3523EB1C5240364 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,24 +101,6 @@
 				FF854235BD0D6C102BF203996A85741E /* libopencv_imgproc.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8500DD70A850BD8D8AF8B0958B6A6F14 /* Pods-MFCardDemo */ = {
-			isa = PBXGroup;
-			children = (
-				649E5EDBCAABB3514F00280090627A02 /* Info.plist */,
-				4E5E1990975D1D80FEA91DD6AF8934DC /* Pods-MFCardDemo.modulemap */,
-				C82F8DCF2D08DC64020B19507BBB0CF9 /* Pods-MFCardDemo-acknowledgements.markdown */,
-				D500432559BFEBBC014411C855EF263F /* Pods-MFCardDemo-acknowledgements.plist */,
-				E5B3CD11C70EDCA2B4F543ADC9FEFD7A /* Pods-MFCardDemo-dummy.m */,
-				865797F2CC4D30D278463D1AD2598235 /* Pods-MFCardDemo-frameworks.sh */,
-				8F52BAACE3CD5BF27E644E593F5788A4 /* Pods-MFCardDemo-resources.sh */,
-				3189B204FDB425FAAB672FEFD174CA5E /* Pods-MFCardDemo-umbrella.h */,
-				3376347608464AFA38B1BDBD6F86CE96 /* Pods-MFCardDemo.debug.xcconfig */,
-				14A4B3BCFAEEAA03AB4939C1CBEEF2B1 /* Pods-MFCardDemo.release.xcconfig */,
-			);
-			name = "Pods-MFCardDemo";
-			path = "Target Support Files/Pods-MFCardDemo";
 			sourceTree = "<group>";
 		};
 		8A1A01D70A416C22516D7FC33D31F7E4 /* CardIO */ = {
@@ -187,6 +128,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BED7795AC8E0A665338E4221D05D5B76 /* Pods-MFCard */ = {
+			isa = PBXGroup;
+			children = (
+				7CFB7EB7939F4C4ECD410A7D3278F8FB /* Info.plist */,
+				3B14F374FD48F7026C64D2936E20CC89 /* Pods-MFCard.modulemap */,
+				AED0D04BA504E503BB906AA9A14E7EAA /* Pods-MFCard-acknowledgements.markdown */,
+				FEDB16AA089FB9D5BC1A352217BC370B /* Pods-MFCard-acknowledgements.plist */,
+				B20EAC94E50B1D535028AE2976FBF133 /* Pods-MFCard-dummy.m */,
+				971E803AE357D3AF946FE4D1D9E8D8A9 /* Pods-MFCard-resources.sh */,
+				E167F0D2291F828AA9B6296458597C77 /* Pods-MFCard-umbrella.h */,
+				F41A52881E2F84F4BA660B73D5AAA108 /* Pods-MFCard.debug.xcconfig */,
+				1B5D316FFCBE5545BA9061F33B3EC812 /* Pods-MFCard.release.xcconfig */,
+			);
+			name = "Pods-MFCard";
+			path = "Target Support Files/Pods-MFCard";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -198,34 +156,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		374109F578D007FF12C203BAC5E8DADE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAD2F73C079315AD2C75372BCB0C0431 /* Pods-MFCardDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3F368ECF8885D9103DE7BF43CAFDB033 /* Pods-MFCardDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A6AF80A7CBDF78877578824924DC6528 /* Build configuration list for PBXNativeTarget "Pods-MFCardDemo" */;
-			buildPhases = (
-				EC66733499CA6D408820D0708A477C79 /* Sources */,
-				548BA65CBD026B5E669C5D69745992F1 /* Frameworks */,
-				374109F578D007FF12C203BAC5E8DADE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-MFCardDemo";
-			productName = "Pods-MFCardDemo";
-			productReference = FE9C3B87FE0C57D3BE12EDC8AD03008E /* Pods_MFCardDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		F2AF6307C873235CCC79447463BA88BF /* Pods-MFCard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 755F03835B87F67DE386345F68CD41BE /* Build configuration list for PBXNativeTarget "Pods-MFCard" */;
@@ -240,7 +173,7 @@
 			);
 			name = "Pods-MFCard";
 			productName = "Pods-MFCard";
-			productReference = BDD5D81FACE5C0E38F3833037A080BB0 /* Pods_MFCard.framework */;
+			productReference = 99CFB601FAE39DC57F1BB01EAEAAF77D /* Pods_MFCard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -260,12 +193,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 763E2FB2D6C4DBB57FF5FE08E446BA18 /* Products */;
+			productRefGroup = 650BE42B034A81D4192CF8CA173E25E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F2AF6307C873235CCC79447463BA88BF /* Pods-MFCard */,
-				3F368ECF8885D9103DE7BF43CAFDB033 /* Pods-MFCardDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -279,20 +211,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC66733499CA6D408820D0708A477C79 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0C1DB5AA67E84DFC362DAD85D1E690D /* Pods-MFCardDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		2050DC47E4B5DAE7B22EB79A57D221F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 761F50E6DB9B4FC95441C64848E9F4E6 /* Pods-MFCard.debug.xcconfig */;
+			baseConfigurationReference = F41A52881E2F84F4BA660B73D5AAA108 /* Pods-MFCard.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -317,41 +241,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_MFCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3617D198FF84E8ED456084BECF930F2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3376347608464AFA38B1BDBD6F86CE96 /* Pods-MFCardDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MFCardDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MFCardDemo/Pods-MFCardDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MFCardDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,7 +251,7 @@
 		};
 		4A53AC5D7CE6F18288C22219385BAA46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C460BE5DB893A8B30F651D78CFFBD78D /* Pods-MFCard.release.xcconfig */;
+			baseConfigurationReference = 1B5D316FFCBE5545BA9061F33B3EC812 /* Pods-MFCard.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -387,41 +276,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_MFCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4B92F8C93A7304C627806578E66D283D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A4B3BCFAEEAA03AB4939C1CBEEF2B1 /* Pods-MFCardDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MFCardDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MFCardDemo/Pods-MFCardDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MFCardDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,15 +385,6 @@
 			buildConfigurations = (
 				2050DC47E4B5DAE7B22EB79A57D221F6 /* Debug */,
 				4A53AC5D7CE6F18288C22219385BAA46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A6AF80A7CBDF78877578824924DC6528 /* Build configuration list for PBXNativeTarget "Pods-MFCardDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3617D198FF84E8ED456084BECF930F2B /* Debug */,
-				4B92F8C93A7304C627806578E66D283D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
